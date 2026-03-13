@@ -1,0 +1,29 @@
+{
+  "name": "claude-businesscentral-skill",
+  "version": "1.0.0",
+  "description": "Claude Code skill for Microsoft Dynamics 365 Business Central integration",
+  "type": "module",
+  "bin": {
+    "bc-cli": "./bin/bc-cli.mjs"
+  },
+  "scripts": {
+    "login": "node bin/bc-cli.mjs login",
+    "logout": "node bin/bc-cli.mjs logout",
+    "status": "node bin/bc-cli.mjs status",
+    "test-connection": "node bin/bc-cli.mjs test"
+  },
+  "keywords": [
+    "claude-code",
+    "business-central",
+    "dynamics-365",
+    "microsoft",
+    "erp",
+    "api",
+    "oauth"
+  ],
+  "author": "Enzo Leonardi",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

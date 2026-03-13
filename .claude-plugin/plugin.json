@@ -1,0 +1,12 @@
+{
+  "name": "businesscentral",
+  "version": "1.0.0",
+  "description": "Claude Code and Cowork skill for Microsoft Dynamics 365 Business Central — authenticate, query, create, update, and delete entities via BC REST API",
+  "author": {
+    "name": "Enzo Leonardi",
+    "url": "https://github.com/enzoleonardi"
+  },
+  "repository": "https://github.com/enzoleonardi/claude-businesscentral-skill",
+  "license": "MIT",
+  "keywords": ["business-central", "dynamics-365", "microsoft", "erp", "api", "oauth", "cowork"]
+}
